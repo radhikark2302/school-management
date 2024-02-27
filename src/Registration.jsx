@@ -15,7 +15,7 @@ export const Registration = (props) => {
             <h2>Registration</h2>
         <form className="registration-form" onSubmit={handleSubmit}>
             <label htmlFor="name">Full name</label>
-            <input value={name} placeholder="full name" id="email" name="name"/>
+            <input value={name} placeholder="full name" id="name" name="name"/>
             <label htmlFor="email">Email</label>
             <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="email@gmail.com" id="email1" name="email"/>
             <label htmlFor="password">Password</label>
