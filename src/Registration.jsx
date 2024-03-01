@@ -14,7 +14,7 @@ export const Registration = (props) => {
         <div className="outside1">
             <h2>Create Account</h2>
         <div className="form-container">
-            <form action="#" className="registration-form" onSubmit={handleSubmit}>
+            <form className="registration-form" onSubmit={handleSubmit}>
                 <label htmlFor="name"></label>
                 <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Full name" id="name" name="name" required autoFocus/>
                 <label htmlFor="email"></label>
